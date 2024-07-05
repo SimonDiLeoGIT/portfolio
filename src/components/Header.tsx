@@ -8,8 +8,8 @@ export const Header = () => {
     <header className='max-w-sm m-auto my-4 md:max-w-3xl xl:max-w-5xl'>
       <h1 className='text-5xl font-semibold -text--color-orange'>Simón Di Leo</h1>
       <div className=' -text--color-light-grey mb-4 mt-2'>
-        <h2 className='text-lg font-semibold -text--color-white'>I'm <span className='-text--color-live-pink'>Frontend</span> Developer</h2>
-        <p>23 years. 5° year student in Bachelor in Information Systems.</p>
+        <h2 className='text-lg font-semibold -text--color-white'><span className='-text--color-live-pink'>Fullstack</span> Developer</h2>
+        <p>I’m 23 years old. I'm currently seeking new job opportunities to face new challenges and demonstrate my capabilities as a developer. I am committed to continuous learning and constant improvement of my technical and professional skills.</p>
       </div>
       <Buttons
         b1icon={github}
