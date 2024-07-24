@@ -17,8 +17,6 @@ export const Projects = () => {
           site_url="https://crystalgym.vercel.app/"
           github_url="https://github.com/SimonDiLeoGIT/clothing-ecommerce"
         />
-      </section>
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <Project
           title="InventoMate"
           description="It's a predictive system for improve inventory management. This system perform predictive sales and trend 
