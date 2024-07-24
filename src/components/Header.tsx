@@ -9,7 +9,7 @@ export const Header = () => {
       <h1 className='text-5xl font-semibold -text--color-orange'>Simón Di Leo</h1>
       <div className=' -text--color-light-grey mb-4 mt-2'>
         <h2 className='text-lg font-semibold -text--color-white'><span className='-text--color-live-pink'>Fullstack</span> Developer</h2>
-        <p>I’m 23 years old. I'm currently seeking new job opportunities to face new challenges and demonstrate my capabilities as a developer. I am committed to continuous learning and constant improvement of my technical and professional skills.</p>
+        <p>Hello! I’m 23 years old. Passionate about creating efficient and impactful solutions with 3 years of experience in designing interactive user interfaces using React.js, TypeScript, HTML, and CSS, as well as developing scalable and maintainable backends with Python, Java, and MySQL.</p>
       </div>
       <Buttons
         b1icon={github}

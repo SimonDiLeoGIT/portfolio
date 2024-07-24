@@ -1,5 +1,6 @@
 import { Project } from "./Project"
 import inventomate_image from '../assets/images/projects/Inventomate.png'
+import crystalgym from '../assets/images/projects/crystalgym.png'
 
 export const Projects = () => {
   return (
@@ -7,6 +8,16 @@ export const Projects = () => {
       <header className="my-4">
         <h2 className="text-2xl font-semibold -text--color-dark-orange">Projects</h2>
       </header>
+      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <Project
+          title="CrystalGym"
+          description="Urban and Gym clothing e-commerce"
+          image={crystalgym}
+          icons={{ react: true, typescript: true, vite: true, tailwind: true, css: true }}
+          site_url="https://crystalgym.vercel.app/"
+          github_url="https://github.com/SimonDiLeoGIT/clothing-ecommerce"
+        />
+      </section>
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <Project
           title="InventoMate"
