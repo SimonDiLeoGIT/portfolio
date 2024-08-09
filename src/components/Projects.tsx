@@ -1,5 +1,4 @@
 import { Project } from "./Project"
-import inventomate_image from '../assets/images/projects/Inventomate.png'
 import crystalgym from '../assets/images/projects/crystalgym.png'
 
 export const Projects = () => {
@@ -16,15 +15,6 @@ export const Projects = () => {
           icons={{ react: true, typescript: true, vite: true, tailwind: true, css: true }}
           site_url="https://crystalgym.vercel.app/"
           github_url="https://github.com/SimonDiLeoGIT/clothing-ecommerce"
-        />
-        <Project
-          title="InventoMate"
-          description="It's a predictive system for improve inventory management. This system perform predictive sales and trend 
-                        analysis."
-          image={inventomate_image}
-          icons={{ react: true, typescript: true, vite: true, tailwind: true, kubernetes: true, docker: true, googleCloud: true }}
-          site_url="https://inventomate.xyz/"
-          github_url="https://github.com/SimonDiLeoGIT/inventomate"
         />
       </section>
     </section>
